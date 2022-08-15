@@ -1,0 +1,152 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior:smooth;
+  
+   }
+h1 {
+   margin: 0px;
+   padding: 0px;
+}
+body {
+ /*   justify-items: center;
+   justify-content: center;
+   align-content: center;
+   align-items:center; */
+   padding: 0px;
+   color: rgb(41, 41, 41);
+   margin: 0px;
+   width: 100%;
+   background-color: rgb(189, 182, 182);
+  
+}
+.navbar{
+   padding-top: 0px;;
+}
+
+.contenedor { 
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   display: flex;
+   padding: 10px;
+   align-self: center;
+   flex-direction: column;
+   align-content: space-between;
+   justify-items: center;
+   justify-content: center;
+   align-items: center;
+   border-color: rgb(195, 195, 252);
+   border-style:groove;
+   border-width:initial;
+   border-radius: 2%;
+   background-color: rgb(255, 248, 220);
+   text-align: center;
+   align-items:center;
+   width: 80%;
+
+}
+
+.cabecera h1 {
+   text-align: center;
+   /* align-content: center; */
+
+}
+
+.portada{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   background: url('assets/desk.jpg') no-repeat;
+   background-position: center center;
+   background-size: contain;
+   background-attachment:fixed;
+   -webkit-background-sixe: cover ;
+    color:aliceblue;
+
+}
+.container-fluid{
+ margin:0;
+ padding:0;
+}
+.navsection{
+   margin:0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-color: rgb(165, 165, 165);
+   width: 100%;
+}
+.textPortada{
+      margin: 30px;
+      
+}
+
+
+
+ 
+
+.fotop {
+  width: 100%;
+}
+
+
+.tarjeta  {
+  
+    padding: 15px;
+    margin: 20px;
+    border: rgba(34, 34, 168, 0.459);
+    border-style:ridge;
+    border-width: thin;
+    border-radius: 2%;
+    text-align:left;
+    width: 90%;
+    justify-content: center;
+    background-color: #2b496b67 ;  
+  }
+
+ul {
+   align-content: space-around;
+   justify-content:unsafe;
+   background: #2b496b67;
+
+} 
+
+li {
+   list-style-type: none;
+   text-align: center;
+   font-size: 12px;
+   padding: 20px 20px; 
+}
+ul :hover {
+   background-color: lightseagreen;
+   color: rgb(0, 0, 0);
+   transition: 200ms ease-in-out;
+}
+li a {
+   outline: none;
+   text-decoration: none;
+   color: rgb(73, 51, 21);
+   padding: 10px 20px;
+}
+
+.foto{
+   display:flex;
+   justify-content: right;
+ }
+
+.fotoperfil{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+}
+
+.footer {
+   display: flex;
+   text-align: center;
+   padding: 40px;
+   padding-top: 5px;
+   background-color: rgb(184, 175, 164);
+   flex-direction: column;
+}
